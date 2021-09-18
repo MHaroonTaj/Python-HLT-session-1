@@ -1,0 +1,12 @@
+# cyber_tues_pt_sept 14th
+# Mohammed Haroon HLT
+#A motorbike costs £2000 and loses 10% of its value every year
+
+value = 2000
+year = 2021
+
+while value >=1000:
+    year = year + 1
+    value = value * 0.9
+    print("year", year, "New value", value)
+
